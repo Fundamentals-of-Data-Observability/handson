@@ -1,0 +1,17 @@
+pandas
+kensu
+pyspark==3.0.1
+sqlalchemy
+psycopg2-binary
+google
+google.cloud
+google-cloud-bigquery
+google-cloud-storage
+sqlparse
+db-dtypes
+dbt-core==1.2.2
+dbt-bigquery==1.2.0
+pandas-gbq
+fsspec
+gcsfs
+pandas_gbq
