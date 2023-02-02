@@ -1,4 +1,5 @@
-
+import urllib3
+urllib3.disable_warnings()
 from kensu.utils.kensu_provider import KensuProvider as K
 K().initKensu(process_name='BigQuery')
 
