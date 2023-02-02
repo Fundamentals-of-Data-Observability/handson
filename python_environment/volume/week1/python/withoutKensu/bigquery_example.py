@@ -37,7 +37,7 @@ bqclient = bigquery.Client()
 result = bqclient.query(query_string).to_dataframe()
 print(result)
 
-result.to_csv('number_trips.csv',index=False)
+result.to_csv('../../data/number_trips.csv',index=False)
 
 
 
