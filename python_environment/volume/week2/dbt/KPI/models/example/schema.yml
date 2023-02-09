@@ -1,0 +1,22 @@
+
+version: 2
+
+models:
+  - name: kpi_green
+    description: "KPI for the green taxis"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+  - name: kpi_yellow
+    description: "KPI for the yellow taxis"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+  - name: kpi_summary
+    description: "KPI for all the taxis"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
