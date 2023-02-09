@@ -1,0 +1,6 @@
+# As of v1.0.0, `pip install dbt` is no longer supported.
+dbt-core==1.0.0
+kensu==2.0.0
+pglast
+google-cloud-bigquery
+pandas

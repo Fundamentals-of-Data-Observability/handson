@@ -1,0 +1,34 @@
+# As of v1.0.0, `pip install dbt` is no longer supported.
+dbt-core===1.0.1
+dbt-bigquery===1.0.0
+#dbt-extractor==0.4.0
+dbt-postgres===1.0.1
+
+# kensu-py collector and its required deps below
+kensu==2.0.0
+pandas
+numpy
+packaging
+# api
+urllib3 >= 1.15.1
+requests
+certifi >= 14.05.14
+datetime
+python_dateutil >= 2.5.3
+six >= 1.10
+pyjwt
+# config
+configparser
+# postgres
+pglast==v3.4
+sqlparse >= 0.4.2
+
+google-cloud-bigquery >= 2.26.0
+
+# something seem to conflict in dbt otherwise, need to force these
+# (also Jinja2 depends on markupsafe)
+twine==4.0.1
+Jinja2==2.11.3
+markupsafe==2.0.1
+# obtained from pip freeze on old working docker image
+Werkzeug==2.1.2
