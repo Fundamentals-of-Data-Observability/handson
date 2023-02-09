@@ -10,8 +10,10 @@ COPY . .
 
 RUN pip install -r requirements.txt  
 
+COPY profiles.yml /root/.dbt/profiles.yml
+
 ENV KSU_CONF_FILE ../../conf.ini
-ENV GOOGLE_APPLICATION_CREDENTIALS=../google/google_credentials.json
+ENV GOOGLE_APPLICATION_CREDENTIALS=../dbt/google/google_credentials.json
 ENV GOOGLE_CLOUD_PROJECT=$project
 
 WORKDIR /volume/
