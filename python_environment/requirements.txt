@@ -1,4 +1,4 @@
-pandas
+pandas==1.4.0
 kensu
 pyspark==3.0.1
 sqlalchemy
